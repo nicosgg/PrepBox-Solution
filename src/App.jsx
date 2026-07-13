@@ -290,6 +290,3 @@ export default function App() {
     </div>
   );
 }
-```eof
-
-Setelah Anda menempel (*paste*) ini dan menekan **Commit**, *deploy* di Vercel pasti akan lolos karena masalah `className={ \` ... \` }` yang rumit itu sudah saya hapus dan saya ubah menggunakan penggabungan string (string concatenation) konvensional yang jauh lebih aman bagi kompilator Vite.
